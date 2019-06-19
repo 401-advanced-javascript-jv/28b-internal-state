@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import './styles.css';
+import Display from './components/display/display.js';
+import Form from './components/form/form.js';
 
 class App extends React.Component {
   constructor(props) {
@@ -25,19 +27,12 @@ class App extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <form onSubmit={this.handleSubmit}>
-          <input
-            type="text"
-            onChange={this.handleChange}
-            value={this.state.name}
-            name="name"
-          />
-          <button>Submit</button>
-        </form>
-        <div>
-          <div>Name: {this.state.name}</div>
-          <div># of Updates: {this.state.count}</div>
-        </div>
+        <Display name={this.state.name} count={this.state.count} />
+        <Form
+          name={this.state.name}
+          handleChange={this.handleChange}
+          handleSubmit={this.handleSubmit}
+        />
       </React.Fragment>
     );
   }
