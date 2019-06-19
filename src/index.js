@@ -25,10 +25,6 @@ class App extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <div>
-          <div>Name: {this.state.name}</div>
-          <div># of Updates: {this.state.count}</div>
-        </div>
         <form onSubmit={this.handleSubmit}>
           <input
             type="text"
@@ -38,6 +34,10 @@ class App extends React.Component {
           />
           <button>Submit</button>
         </form>
+        <div>
+          <div>Name: {this.state.name}</div>
+          <div># of Updates: {this.state.count}</div>
+        </div>
       </React.Fragment>
     );
   }
