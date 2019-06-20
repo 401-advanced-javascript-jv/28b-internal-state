@@ -7,7 +7,6 @@ export default class Form extends React.Component {
         <input
           type="text"
           onChange={this.props.handleChange}
-          value={this.props.name}
           name="name"
         />
         <button>Submit</button>
