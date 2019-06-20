@@ -9,11 +9,20 @@
     "react-dom": "16.3.2",
     "react-scripts": "1.1.4"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "arrowParens": "always",
+    "endOfLine": "lf"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint '**/*.js'"
   }
 }
