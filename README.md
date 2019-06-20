@@ -10,11 +10,13 @@
 
 - [PR - GitHub](https://github.com/401-advanced-javascript-jv/28a-props/pull/1)
 - [Travis ![Build Status](https://travis-ci.com/401-advanced-javascript-jv/28a-props.svg?branch=submission2)](https://travis-ci.com/401-advanced-javascript-jv/28a-props)
+- [Front-End Deployment](https://festive-swanson-fee6cf.netlify.com/)
 
 **Assignment 2, Challenge 2**
 
 - [PR - GitHub](https://github.com/401-advanced-javascript-jv/28a-props/pull/2)
 - [Travis ![Build Status](https://travis-ci.com/401-advanced-javascript-jv/28a-props.svg?branch=submission2)](https://travis-ci.com/401-advanced-javascript-jv/28a-props)
+- [Front-End Deployment](https://serene-hamilton-eeed6d.netlify.com/)
 
 #### Running the app
 
